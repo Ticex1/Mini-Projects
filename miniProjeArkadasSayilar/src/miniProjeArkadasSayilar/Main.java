@@ -4,11 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// Girilen sayýnýn arkadaþ sayýsýnýn olup olmadýðýný
-		// eðer varsa olduðunu belirten program
+		/* Girilen sayinin arkadas sayisinin olup olmadigini ve
+		   eger varsa sayilari belirten program */
 
 		int toplam1 = 0;
-		int sayi = 1184;
+	        	
+                int sayi = 1184; //Girilen Sayi
 		for (int i = 1; i < sayi; i++) {
 
 			if (sayi % i == 0) {
@@ -32,13 +33,12 @@ public class Main {
 
 		if (toplam2 == sayi) {
 
-			System.out.println("Arkadaþ Sayýsý Var\n\nArkadaþ Sayýlar:");
-			System.out.println(toplam1);
-			System.out.println(toplam2);
+			System.out.println("Arkadas Sayisi Var\n\nArkadas Sayilar:");
+			System.out.println(toplam1+"\n"+toplam2);
 		}
 
 		else {
-			System.out.println("Arkadaþ Sayýsý Yok");
+			System.out.println("Arkadas Sayisi Yok");
 		}
 	}
 }
